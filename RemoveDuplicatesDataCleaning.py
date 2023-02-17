@@ -113,7 +113,7 @@ class DataCleaning:
         
     def clean_data_nf(self, data: str) -> str:
         """
-        to perform the appropriate preprocessing on the data
+        to perform the appropriate preprocessing on the data, still it is non final
         :param data: raw data
         :return: clean data which can be used for further processing
         """
@@ -287,4 +287,9 @@ class DataCleaning:
     
     
     def clean_data_f(self, data: str) -> str:
+        """
+        to perform the final preprocessing on the data
+        :param data: data
+        :return: a completely cleaned data which now can be used in further generation of structured data
+        """
         return self.__sentence_formatting(data.split("."))
