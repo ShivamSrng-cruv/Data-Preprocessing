@@ -1,0 +1,14 @@
+re
+os
+time
+spacy
+string
+warnings
+itertools
+numpy
+contractions
+pandas
+seaborn
+bs4 [BeautifulSoup]
+nltk.corpus [stopwords]
+IPython.display [display]
